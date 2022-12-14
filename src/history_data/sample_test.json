@@ -1,0 +1,468 @@
+{
+    "grandSummaryStatus": "red",
+    "grandSummaryHistory": "red",
+    "data": [
+        {
+            "name": "ASK",
+            "summaryStatus": "red",
+            "summaryHistory": [
+                "red",
+                "red",
+                "red",
+                "green",
+                "green",
+                "green"
+            ],
+            "services": [
+                {
+                    "serviceName": "Micro-services",
+                    "serviceStatus": "green",
+                    "history": [
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "red",
+                        "green",
+                        "green"
+                    ]
+                },
+                {
+                    "serviceName": "PgAgent",
+                    "serviceStatus": "green",
+                    "history": [
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "red",
+                        "green",
+                        "green"
+                    ]
+                },
+                {
+                    "serviceName": "Query Engine",
+                    "serviceStatus": "green",
+                    "history": [
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "red",
+                        "green",
+                        "green"
+                    ]
+                },
+                {
+                    "serviceName": "PostgreSQL",
+                    "serviceStatus": "green",
+                    "history": [
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "red",
+                        "green",
+                        "green"
+                    ]
+                },
+                {
+                    "serviceName": "Synthetic and Comparison",
+                    "serviceStatus": "green",
+                    "history": [
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "red",
+                        "green",
+                        "green"
+                    ]
+                },
+                {
+                    "serviceName": "Redis",
+                    "serviceStatus": "red",
+                    "history": [
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "red",
+                        "green",
+                        "green"
+                    ]
+                },
+                {
+                    "serviceName": "mdc_cm3",
+                    "serviceStatus": "green",
+                    "history": [
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "red",
+                        "green",
+                        "green"
+                    ]
+                },
+                {
+                    "serviceName": "SSH connections",
+                    "serviceStatus": "green",
+                    "history": [
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "red",
+                        "green",
+                        "green"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ELK",
+            "summaryStatus": "red",
+            "summaryHistory": [
+                "red",
+                "red",
+                "red",
+                "green",
+                "green",
+                "green"
+            ],
+            "services": [
+                {
+                    "serviceName": "Logstash",
+                    "serviceStatus": "green",
+                    "history": [
+                        "green",
+                        "red",
+                        "red"
+                    ]
+                },
+                {
+                    "serviceName": "ElasticSearch",
+                    "serviceStatus": "red",
+                    "history": [
+                        "green",
+                        "red",
+                        "red"
+                    ]
+                },
+                {
+                    "serviceName": "Kibana",
+                    "serviceStatus": "red",
+                    "history": [
+                        "green",
+                        "red",
+                        "red"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cloudera",
+            "summaryStatus": "red",
+            "summaryHistory": [
+                "red",
+                "red",
+                "red",
+                "green",
+                "green",
+                "green"
+            ],
+            "services": [
+                {
+                    "serviceName": "Solr",
+                    "serviceStatus": "red",
+                    "history": [
+                        "red",
+                        "red",
+                        "red",
+                        "red",
+                        "green",
+                        "green"
+                    ]
+                },
+                {
+                    "serviceName": "YARN",
+                    "serviceStatus": "red",
+                    "history": [
+                        "red",
+                        "red",
+                        "red",
+                        "red",
+                        "green",
+                        "green"
+                    ]
+                },
+                {
+                    "serviceName": "ZooKeeper",
+                    "serviceStatus": "red",
+                    "history": [
+                        "red",
+                        "red",
+                        "red",
+                        "red",
+                        "green",
+                        "green"
+                    ]
+                },
+                {
+                    "serviceName": "Hive",
+                    "serviceStatus": "red",
+                    "history": [
+                        "red",
+                        "red",
+                        "red",
+                        "red",
+                        "green",
+                        "green"
+                    ]
+                },
+                {
+                    "serviceName": "Impala",
+                    "serviceStatus": "green",
+                    "history": [
+                        "red",
+                        "red",
+                        "red",
+                        "red",
+                        "green",
+                        "green"
+                    ]
+                },
+                {
+                    "serviceName": "HDFS",
+                    "serviceStatus": "green",
+                    "history": [
+                        "red",
+                        "red",
+                        "red",
+                        "red",
+                        "green",
+                        "green"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Indexer",
+            "summaryStatus": "green",
+            "summaryHistory": [
+                "red",
+                "red",
+                "red",
+                "green",
+                "green",
+                "green"
+            ],
+            "services": [
+                {
+                    "serviceName": "PG STATE:",
+                    "serviceStatus": "green",
+                    "history": [
+                        "green",
+                        "green",
+                        "green",
+                        "green"
+                    ]
+                },
+                {
+                    "serviceName": "IMPALA STATE:",
+                    "serviceStatus": "green",
+                    "history": [
+                        "green",
+                        "green",
+                        "green",
+                        "green"
+                    ]
+                },
+                {
+                    "serviceName": "SOLR STATE:",
+                    "serviceStatus": "green",
+                    "history": [
+                        "green",
+                        "green",
+                        "green",
+                        "green"
+                    ]
+                },
+                {
+                    "serviceName": "REDIS STATE:",
+                    "serviceStatus": "green",
+                    "history": [
+                        "green",
+                        "green",
+                        "green",
+                        "green"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Rancher",
+            "summaryStatus": "green",
+            "summaryHistory": [
+                "red",
+                "red",
+                "red",
+                "green",
+                "green",
+                "green"
+            ],
+            "services": [
+                {
+                    "serviceName": "controller-manager",
+                    "serviceStatus": "green",
+                    "history": [
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "green"
+                    ]
+                },
+                {
+                    "serviceName": "etcd-0",
+                    "serviceStatus": "green",
+                    "history": [
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "green"
+                    ]
+                },
+                {
+                    "serviceName": "etcd-1",
+                    "serviceStatus": "green",
+                    "history": [
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "green"
+                    ]
+                },
+                {
+                    "serviceName": "etcd-2",
+                    "serviceStatus": "green",
+                    "history": [
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "green"
+                    ]
+                },
+                {
+                    "serviceName": "scheduler",
+                    "serviceStatus": "green",
+                    "history": [
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "green"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "DLG",
+            "summaryStatus": "green",
+            "summaryHistory": [
+                "red",
+                "red",
+                "red",
+                "green",
+                "green",
+                "green"
+            ],
+            "services": [
+                {
+                    "serviceName": "ASK_SERVICE",
+                    "serviceStatus": "green",
+                    "history": [
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "green"
+                    ]
+                },
+                {
+                    "serviceName": "QUERY_TOOL_SERVICE",
+                    "serviceStatus": "green",
+                    "history": [
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "green"
+                    ]
+                },
+                {
+                    "serviceName": "DC_DATABASE",
+                    "serviceStatus": "green",
+                    "history": [
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "green"
+                    ]
+                },
+                {
+                    "serviceName": "MDCLONE_DATABASE",
+                    "serviceStatus": "green",
+                    "history": [
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "green"
+                    ]
+                },
+                {
+                    "serviceName": "REDIS",
+                    "serviceStatus": "green",
+                    "history": [
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "green"
+                    ]
+                },
+                {
+                    "serviceName": "MICRO_MANAGER",
+                    "serviceStatus": "green",
+                    "history": [
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "green",
+                        "green"
+                    ]
+                }
+            ]
+        }
+    ]
+}

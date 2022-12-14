@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+
+        </style>
+        <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename= 'images/favicon.png') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename= 'css/style.css') }}">
+        <script src="{{ url_for('static', filename= 'js/jquery-3.6.1.min.js') }}"></script>
+
+        <title>MDClone StarTracker</title>
+    </head>
+    <table class="styled-table">
+        <thead>
+        </thead>
+        </tbody>
+            <tr class="active-row">
+                <td class="styled-col1"><b>{{name}}</b></td>
+                {% for x in obj %}
+
+                <td><img src={{x.serviceIcon}} width="10"> {{x.serviceName}}</td>
+                <tr>
+                    <td>{{x.serviceStatus}}</td>
+                </tr>
+
+                {% endfor %}
+            </tr>
+
+        </tbody>
+    </table>
+</html>

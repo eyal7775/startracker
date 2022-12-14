@@ -1,0 +1,208 @@
+{
+    "grandSummaryStatus": "red",
+    "grandSummaryHistory": [],
+    "data": [
+        {
+            "name": "ASK",
+            "summaryStatus": "red",
+            "summaryHistory": [],
+            "services": [
+                {
+                    "serviceName": "Micro-services",
+                    "serviceStatus": "green",
+                    "history": []
+                },
+                {
+                    "serviceName": "PgAgent",
+                    "serviceStatus": "green",
+                    "history": []
+                },
+                {
+                    "serviceName": "Query Engine",
+                    "serviceStatus": "green",
+                    "history": []
+                },
+                {
+                    "serviceName": "PostgreSQL",
+                    "serviceStatus": "green",
+                    "history": []
+                },
+                {
+                    "serviceName": "Synthetic and Comparison",
+                    "serviceStatus": "green",
+                    "history": []
+                },
+                {
+                    "serviceName": "Redis",
+                    "serviceStatus": "red",
+                    "history": []
+                },
+                {
+                    "serviceName": "mdc_cm3",
+                    "serviceStatus": "green",
+                    "history": []
+                },
+                {
+                    "serviceName": "SSH connections",
+                    "serviceStatus": "green",
+                    "history": []
+                }
+            ]
+        },
+        {
+            "name": "ELK",
+            "summaryStatus": "red",
+            "summaryHistory": [],
+            "services": [
+                {
+                    "serviceName": "Logstash",
+                    "serviceStatus": "green",
+                    "history": []
+                },
+                {
+                    "serviceName": "ElasticSearch",
+                    "serviceStatus": "red",
+                    "history": []
+                },
+                {
+                    "serviceName": "Kibana",
+                    "serviceStatus": "red",
+                    "history": []
+                }
+            ]
+        },
+        {
+            "name": "Cloudera",
+            "summaryStatus": "red",
+            "summaryHistory": [],
+            "services": [
+                {
+                    "serviceName": "Solr",
+                    "serviceStatus": "red",
+                    "history": []
+                },
+                {
+                    "serviceName": "YARN",
+                    "serviceStatus": "red",
+                    "history": []
+                },
+                {
+                    "serviceName": "ZooKeeper",
+                    "serviceStatus": "red",
+                    "history": []
+                },
+                {
+                    "serviceName": "Hive",
+                    "serviceStatus": "red",
+                    "history": []
+                },
+                {
+                    "serviceName": "Impala",
+                    "serviceStatus": "green",
+                    "history": []
+                },
+                {
+                    "serviceName": "HDFS",
+                    "serviceStatus": "green",
+                    "history": []
+                }
+            ]
+        },
+        {
+            "name": "Indexer",
+            "summaryStatus": "green",
+            "summaryHistory": [],
+            "services": [
+                {
+                    "serviceName": "PG STATE:",
+                    "serviceStatus": "green",
+                    "history": []
+                },
+                {
+                    "serviceName": "IMPALA STATE:",
+                    "serviceStatus": "green",
+                    "history": []
+                },
+                {
+                    "serviceName": "SOLR STATE:",
+                    "serviceStatus": "green",
+                    "history": []
+                },
+                {
+                    "serviceName": "REDIS STATE:",
+                    "serviceStatus": "green",
+                    "history": []
+                }
+            ]
+        },
+        {
+            "name": "Rancher",
+            "summaryStatus": "green",
+            "summaryHistory": [],
+            "services": [
+                {
+                    "serviceName": "controller-manager",
+                    "serviceStatus": "green",
+                    "history": []
+                },
+                {
+                    "serviceName": "etcd-0",
+                    "serviceStatus": "green",
+                    "history": []
+                },
+                {
+                    "serviceName": "etcd-1",
+                    "serviceStatus": "green",
+                    "history": []
+                },
+                {
+                    "serviceName": "etcd-2",
+                    "serviceStatus": "green",
+                    "history": []
+                },
+                {
+                    "serviceName": "scheduler",
+                    "serviceStatus": "green",
+                    "history": []
+                }
+            ]
+        },
+        {
+            "name": "DLG",
+            "summaryStatus": "green",
+            "summaryHistory": [],
+            "services": [
+                {
+                    "serviceName": "ASK_SERVICE",
+                    "serviceStatus": "green",
+                    "history": []
+                },
+                {
+                    "serviceName": "QUERY_TOOL_SERVICE",
+                    "serviceStatus": "green",
+                    "history": []
+                },
+                {
+                    "serviceName": "DC_DATABASE",
+                    "serviceStatus": "green",
+                    "history": []
+                },
+                {
+                    "serviceName": "MDCLONE_DATABASE",
+                    "serviceStatus": "green",
+                    "history": []
+                },
+                {
+                    "serviceName": "REDIS",
+                    "serviceStatus": "green",
+                    "history": []
+                },
+                {
+                    "serviceName": "MICRO_MANAGER",
+                    "serviceStatus": "green",
+                    "history": []
+                }
+            ]
+        }
+    ]
+}
